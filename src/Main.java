@@ -21,9 +21,7 @@ public class Main {
             this.step = step;
         }
 
-        private static double function(double x) {
-            return x * x + 7 * x + sin (2 * x);
-        }
+
 
         public double getResult(){
             return result;
@@ -41,6 +39,10 @@ public class Main {
         }
 
 
+    }
+
+    private static double function(double x) {
+        return x * x + 7 * x + sin (2 * x);
     }
 
     public static void main(String[] args) throws IOException, InterruptedException {
